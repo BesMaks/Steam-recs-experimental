@@ -1,0 +1,48 @@
+Random Forest
+
+Confusion Matrix: 
+               precision    recall  f1-score   support
+
+           1       0.99      0.88      0.93     17864
+          -1       0.63      0.94      0.75      3951
+
+    accuracy                           0.89     21815
+   macro avg       0.81      0.91      0.84     21815
+weighted avg       0.92      0.89      0.90     21815
+
+
+
+TN - True Negative 15643
+FP - False Positive 2221
+FN - False Negative 236
+TP - True Positive 3715
+Accuracy Rate: 0.8873710749484299
+Misclassification Rate: 0.11262892505157002
+F1-Score: 0.8393383778018702
+ROC-AUC 0.9079700142803984
+
+
+
+
+Gradient boosting
+
+Confusion Matrix: 
+               precision    recall  f1-score   support
+
+           1       0.92      0.67      0.78     17864
+          -1       0.33      0.75      0.46      3951
+
+    accuracy                           0.68     21815
+   macro avg       0.63      0.71      0.62     21815
+weighted avg       0.82      0.68      0.72     21815
+
+
+
+TN - True Negative 11958
+FP - False Positive 5906
+FN - False Negative 988
+TP - True Positive 2963
+Accuracy Rate: 0.6839789135915655
+Misclassification Rate: 0.31602108640843457
+F1-Score: 0.6192439849492715
+ROC-AUC 0.7096638393767448
