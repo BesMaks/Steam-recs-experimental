@@ -14,18 +14,6 @@ from sklearn.metrics.pairwise import cosine_similarity
 def create_interaction_matrix(
     df, user_col, item_col, rating_col, norm=False, threshold=None
 ):
-    """
-    Creates an interaction matrix DataFrame \n
-    Arguments:
-        df = Pandas DataFrame containing user-item interactions
-        user_col = column name containing user's identifier
-        item_col = column name containing item's identifier
-        rating col = column name containing user rating on given item
-        norm (optional) = True if a normalization of ratings is needed
-        threshold (required if norm = True) = value above which the rating is favorable
-    Returns:
-        Pandas DataFrame with user-item interactions
-    """
     interactions = (
         df.groupby([user_col, item_col])[rating_col]
         .sum()
