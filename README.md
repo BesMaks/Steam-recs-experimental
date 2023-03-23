@@ -17,10 +17,6 @@ Finally, I will be looking at **item-to-item recommendations**, providing simila
 
 The data was obtained from https://cseweb.ucsd.edu/~jmcauley/datasets.html#steam_data
 
-* **Ressources**
-
-A collection of [helper functions](https://github.com/nadinezab/video-game-recs/blob/master/resources.py) were defined in the project and saved in `resources.py` for future use.
-
 
 ## Main technologies and packages used
 
