@@ -82,11 +82,10 @@ def run_model_KNN(ratings, k):
     reader = Reader()
     data = Dataset.load_from_df(ratings, reader)
 
-    #Define the algorithm object; in this case kNN
-    knn = KNNBasic(k, sim_options={'name': 'cosine', 'user_based': False})
+    # Define the algorithm object; in this case kNN
+    knn = KNNBasic(k, sim_options={"name": "cosine", "user_based": False})
     knn.fit(data.build_full_trainset())
     return knn
-    
 
 
 def get_recs(
@@ -150,7 +149,7 @@ def get_recs(
         counter = 1
         for i in scores:
             print(str(counter) + "- " + i)
-            df_temp = pd.DataFrame({'item': i, 'score': counter}, index=[counter-1])
+            df_temp = pd.DataFrame({"item": i, "score": counter}, index=[counter - 1])
             df = df.append(df_temp)
             # df.append({"item": i, "score": counter}, ignore_index = True)
             counter += 1

@@ -1,0 +1,206 @@
+Trying parameters:
+{'n_components': 15, 'loss': 'warp', 'epoch': 15, 'n_jobs': 4}
+
+Evaluation results:
+  train_precision: 0.7218
+  test_precision: 0.5171
+  train_recall: 0.1635
+  test_recall: 0.1223
+  train_auc: 0.9776
+  test_auc: 0.9337
+
+
+Trying parameters:
+{'n_components': 15, 'loss': 'warp', 'epoch': 30, 'n_jobs': 4}
+
+Evaluation results:
+  train_precision: 0.7318
+  test_precision: 0.4968 
+  train_recall: 0.1660   
+  test_recall: 0.1171    
+  train_auc: 0.9799      
+  test_auc: 0.9276       
+
+
+Trying parameters:
+{'n_components': 15, 'loss': 'warp', 'epoch': 45, 'n_jobs': 4}
+
+Evaluation results:
+  train_precision: 0.7333
+  test_precision: 0.4927
+  train_recall: 0.1674
+  test_recall: 0.1162
+  train_auc: 0.9811
+  test_auc: 0.9243
+
+
+Trying parameters:
+{'n_components': 15, 'loss': 'bpr', 'epoch': 15, 'n_jobs': 4}
+
+Evaluation results:
+  train_precision: 0.7634
+  test_precision: 0.4330
+  train_recall: 0.1774
+  test_recall: 0.1008
+  train_auc: 0.9457
+  test_auc: 0.7339
+
+
+Trying parameters:
+{'n_components': 15, 'loss': 'bpr', 'epoch': 30, 'n_jobs': 4}
+
+Evaluation results:
+  train_precision: 0.7790
+  test_precision: 0.4093
+  train_recall: 0.1840
+  test_recall: 0.0951
+  train_auc: 0.9527
+  test_auc: 0.7296
+
+
+Trying parameters:
+{'n_components': 15, 'loss': 'bpr', 'epoch': 45, 'n_jobs': 4}
+
+Evaluation results:
+  train_precision: 0.7811
+  test_precision: 0.4077
+  train_recall: 0.1869
+  test_recall: 0.0950
+  train_auc: 0.9550
+  test_auc: 0.7275
+
+
+Trying parameters:
+{'n_components': 15, 'loss': 'logistic', 'epoch': 15, 'n_jobs': 4}
+
+Evaluation results:
+  train_precision: 0.6195
+  test_precision: 0.6071
+  train_recall: 0.1415
+  test_recall: 0.1451
+  train_auc: 0.9571
+  test_auc: 0.9574
+
+
+Trying parameters:
+{'n_components': 15, 'loss': 'logistic', 'epoch': 30, 'n_jobs': 4}
+
+Evaluation results:
+  train_precision: 0.6240
+  test_precision: 0.6072
+  train_recall: 0.1418
+  test_recall: 0.1448
+  train_auc: 0.9574
+  test_auc: 0.9574
+
+
+Trying parameters:
+{'n_components': 15, 'loss': 'logistic', 'epoch': 45, 'n_jobs': 4}
+
+Evaluation results:
+  train_precision: 0.6247
+  test_precision: 0.6071
+  train_recall: 0.1423
+  test_recall: 0.1446
+  train_auc: 0.9576
+  test_auc: 0.9575
+
+
+Trying parameters:
+{'n_components': 30, 'loss': 'warp', 'epoch': 15, 'n_jobs': 4}
+
+Evaluation results:
+  train_precision: 0.7492
+  test_precision: 0.4870
+  train_recall: 0.1716
+  test_recall: 0.1148
+  train_auc: 0.9829
+  test_auc: 0.9271
+
+
+Trying parameters:
+{'n_components': 30, 'loss': 'warp', 'epoch': 30, 'n_jobs': 4}
+
+Evaluation results:
+  train_precision: 0.7630
+  test_precision: 0.4696
+  train_recall: 0.1768
+  test_recall: 0.1103
+  train_auc: 0.9855
+  test_auc: 0.9193
+
+
+Trying parameters:
+{'n_components': 30, 'loss': 'warp', 'epoch': 45, 'n_jobs': 4}
+
+Evaluation results:
+  train_precision: 0.7698
+  test_precision: 0.4608
+  train_recall: 0.1801
+  test_recall: 0.1088
+  train_auc: 0.9867
+  test_auc: 0.9149
+
+
+Trying parameters:
+{'n_components': 30, 'loss': 'bpr', 'epoch': 15, 'n_jobs': 4}
+
+Evaluation results:
+  train_precision: 0.8062
+  test_precision: 0.4176
+  train_recall: 0.1917
+  test_recall: 0.0969
+  train_auc: 0.9545
+  test_auc: 0.7191
+
+
+Trying parameters:
+{'n_components': 30, 'loss': 'bpr', 'epoch': 30, 'n_jobs': 4}
+
+Evaluation results:
+  train_precision: 0.8321
+  test_precision: 0.4036
+  train_recall: 0.2037
+  test_recall: 0.0935
+  train_auc: 0.9630
+  test_auc: 0.7090
+
+
+Trying parameters:
+{'n_components': 30, 'loss': 'bpr', 'epoch': 45, 'n_jobs': 4}
+
+Evaluation results:
+  train_precision: 0.8408
+  test_precision: 0.4010
+  train_recall: 0.2082
+  test_recall: 0.0931
+  train_auc: 0.9662
+  test_auc: 0.7041
+
+
+Trying parameters:
+{'n_components': 30, 'loss': 'logistic', 'epoch': 15, 'n_jobs': 4}
+
+Evaluation results:
+  train_precision: 0.6189
+  test_precision: 0.6071
+  train_recall: 0.1414
+  test_recall: 0.1452
+  train_auc: 0.9571
+  test_auc: 0.9574
+
+
+Trying parameters:
+{'n_components': 30, 'loss': 'logistic', 'epoch': 30, 'n_jobs': 4}
+
+Evaluation results:
+  train_precision: 0.6238
+  test_precision: 0.6073
+  train_recall: 0.1417
+  test_recall: 0.1448
+  train_auc: 0.9574
+  test_auc: 0.9574
+
+
+Trying parameters:
+{'n_components': 30, 'loss': 'logistic', 'epoch': 45, 'n_jobs': 4}
