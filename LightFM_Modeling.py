@@ -183,7 +183,7 @@ def run_kmeans_visualization(X: csr_matrix, X_2d) -> np.ndarray:
     fig, axes = plt.subplots(5, 2, figsize=(12, 18))
     axes = axes.ravel()
 
-    for index, k in enumerate(range(2, 16, 2)):
+    for index, k in enumerate(range(3, 25, 4)):
         kmeans = train_kmeans(X, k)
         plot_clusters(X_2d, kmeans, axes[index])  # Use X_2d only for visualization
         elbow_data.append(kmeans.inertia_)
